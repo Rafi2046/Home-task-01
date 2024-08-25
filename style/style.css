@@ -10,7 +10,9 @@ body{
     color: white;
 }
 .text1{
+    margin-top: 60px;
     padding: 5px 10px 5px 15px;
+
 }
 .text2{
     padding: 5px 10px 5px 15px;
@@ -26,12 +28,17 @@ body{
     background: rgb(2,0,36);
     background-color:linear-gradient(45deg, #00897B, #0081bf);
     color: #6dbdf1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
    
 }
 
 img{
-    position: fixed;
+    
     left: 5px;
     right: 3px;
     top: 5px;
@@ -50,28 +57,13 @@ a:hover {
     color: rgb(12, 152, 233);
     text-decoration: none;
 }
-address{
-    display:block;
-    font-style: italic;
-   color: rgb(80, 20, 220);
-    position: fixed;
 
-    left: px;
-    right: 5px;
-    top: 870px;
-    bottom: 500px;
+footer{
+    background: black;
     padding: 5px;
-}
-.last{
-    display:block;
-    position: fixed;
-    color: gold;
-    left: 5px;
-    right: 5px;
-    top: 925px;
-    bottom: 500px;
-    padding: 5px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*Desktop*/
