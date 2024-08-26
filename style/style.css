@@ -58,9 +58,9 @@ a:hover {
     text-decoration: none;
 }
 
-footer{
-    background: black;
-    padding: 5px;
+.footer{
+    background: rgb(0, 0, 0);
+    padding: 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
